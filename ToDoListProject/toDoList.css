@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(226, 87, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 4rem;
+    font-style: italic;
+    color:aqua;
+    margin: 2rem;
+}
+.plus{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(89, 15, 158);
+    position: fixed;
+    right:1rem;
+    top:90vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.plus:hover{
+    background-color: rgb(84, 11, 152);
+}
+.addTask{
+    height:40px;
+    width:400px;
+    display: flex;
+    gap:0.5rem;
+}
+#inputTask{
+    height:100%;
+    width:290px;
+}
+.addWork{
+    width:70px;
+    background-color: rgb(244, 10, 92);
+    color: #fff;
+    font-weight: 600;
+}
+.addWork:hover{
+    background-color: rgb(194, 37, 63);
+    transform: scale(1.1);
+}
+.listStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    height:40px;
+    width:300px;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 5px;
+    /* position: absolute;
+    top:15rem; */
+}
+
+
+    
