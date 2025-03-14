@@ -15,23 +15,6 @@ h2{
     color:aqua;
     margin: 2rem;
 }
-.plus{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(89, 15, 158);
-    position: fixed;
-    right:1rem;
-    top:90vh;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-weight: 600;
-}
-.plus:hover{
-    background-color: rgb(84, 11, 152);
-}
 .addTask{
     height:40px;
     width:400px;
@@ -53,10 +36,10 @@ h2{
     transform: scale(1.1);
 }
 .listStyle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:0.4rem;
     height:40px;
     width:300px;
     background-color: antiquewhite;
@@ -68,6 +51,20 @@ h2{
     padding-top: 5px;
     /* position: absolute;
     top:15rem; */
+}
+.check{
+    grid-area: 1/4/2/5;
+    width:20px;
+    height: 20px;
+    align-self: center;
+}
+.delBtn{
+    grid-area: 1/5/2/6;
+    height:37px;
+    width:37px;
+}
+.delBtn:hover{
+    transform: scale(1.2);
 }
 
 
